@@ -1,0 +1,525 @@
+body {
+  margin: 0px;
+}
+
+/* UNIVERSAL PADDING  */
+
+.uni-pad {
+  padding: 0px 10%;
+}
+
+/* HEADER SECTION  */
+
+#top-header {
+  background-color: #fdf2f3;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+/* NAV BAR  */
+
+#nav-bar {
+  padding: 20px;
+}
+
+.links-container {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: black;
+  transition-property: all;
+  transition: 0.3s;
+}
+
+.links-container a:hover {
+  color: #ff5353;
+}
+
+.lang-ord-gft {
+  padding: 0px 1%;
+}
+
+#icons-container {
+  font-size: 20px;
+}
+
+.icons {
+  padding: 0px 3px;
+}
+
+.icons a {
+  color: black;
+}
+
+.icons a:hover {
+  color: #ff5353;
+  transition-property: all;
+  transition: 0.3s;
+}
+
+#menu-container {
+  display: none;
+}
+
+#menu-btn {
+  color: black;
+  cursor: pointer;
+}
+
+#menu-btn:hover {
+  color: #ff5353;
+}
+
+/* BANNER SECTION  */
+
+#banner-section {
+  background-image: url(../Images/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+#banner-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  color: black;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #ff5353;
+  color: white;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+/* FEATURED SECTION  */
+
+#ft-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding: 5% 0px;
+}
+
+.fet-title {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  padding-top: 8%;
+  font-size: 15px;
+}
+
+.fet-price {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 5% 0px;
+  font-size: 20px;
+}
+
+.rating-star a {
+  color: red;
+}
+
+/* 50% DISCOUNT SECTION  */
+
+#discount-section {
+  background-color: #ece4da;
+}
+
+#discount-title {
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
+
+  display: block;
+  padding-bottom: 5%;
+}
+
+#discount-text {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 60px;
+  color: black;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #ff5353;
+  color: white;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+
+/* MOST POPULAR SECTION  */
+
+#popular-container {
+  padding-bottom: 5%;
+}
+
+#ft-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding: 5% 0px;
+}
+
+.pop-title {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  padding-top: 8%;
+  font-size: 15px;
+}
+
+.pop-price {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 5% 0px;
+  font-size: 20px;
+}
+
+.rating-stars {
+  color: red;
+}
+
+/* SUPPORT SECTION  */
+
+#support-container {
+  padding-bottom: 5%;
+}
+
+.icon-box {
+  border: 1px solid #ebeef0;
+  margin: 0px 0px;
+  padding: 10px 0px;
+  margin: 15px 0px;
+}
+
+.box-title {
+  font-size: 15px;
+  padding: 1% 0px;
+}
+
+.box-para {
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  font-size: 15px;
+  padding: 1% 0px;
+}
+
+.support-icons {
+  padding: 7% 0px;
+}
+
+/* TRENDING SECTION  */
+#trending-container {
+  padding-bottom: 5%;
+}
+
+#trend-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 5%;
+}
+
+.trend-title {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  padding-top: 8%;
+  font-size: 15px;
+}
+
+.trend-price {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: 5% 0px;
+  font-size: 20px;
+}
+
+/* SILON JOURNAL SECTION */
+
+#journal-container {
+  padding-bottom: 5%;
+}
+
+#journal-heading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 6%;
+}
+
+.comment-icon-container {
+  border-top: 1px solid #ff5353;
+  padding-top: 5%;
+}
+
+.post-item {
+  box-sizing: border-box;
+}
+
+.post-content {
+  box-sizing: border-box;
+}
+
+.journal-a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.comments-a {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 5%;
+}
+
+.post-img {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.journal-date {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.comments-icons {
+  padding-right: 2%;
+}
+
+/* FOLLOW US SECTION  */
+
+#follow-heading {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 6%;
+}
+
+.image-container {
+  padding-bottom: 10%;
+}
+
+/* FOOTER SECTION  */
+
+#footer-container {
+  background-color: #e9e2d8;
+  padding: 5% 0px;
+}
+
+.footer-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 17px;
+  padding-bottom: 25px;
+  padding-top: 5%;
+}
+#mobile-heading {
+  padding-bottom: 0px;
+}
+
+.paras {
+  font-family: "Roboto", sans-serif;
+  opacity: 0.8;
+  color: rgb(83, 81, 81);
+  font-size: 15px;
+  padding: 0px;
+  list-style: none;
+}
+
+.paras-a {
+  text-decoration: none;
+  color: rgb(83, 81, 81);
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.paras-a:hover {
+  text-decoration: none;
+  color: #ff5353;
+}
+.btn-container {
+  display: inline-block;
+  padding: 10% 3px;
+}
+
+#Shopping-heading {
+  padding: 5% 0px;
+  border-top: 1px solid #ff5353;
+}
+
+#google-btn {
+  background-color: #ff5353;
+}
+
+#google-btn:hover {
+  background-color: white;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+#apple-btn {
+  background-color: #ff5353;
+  color: white;
+}
+
+#apple-btn:hover {
+  background-color: white;
+  color: black;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.store-btns {
+  padding: 10px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+.social-icons {
+  padding: 0px 1%;
+}
+
+/* COPYRIGHT SECTION */
+
+#copy-right-container {
+  background-color: rgba(0, 0, 0, 0.959);
+  padding: 30px 0px;
+}
+
+#copyright-p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (width: 768px) {
+  #banner-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #banner-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .post-content {
+    box-sizing: border-box;
+    width: 355px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 382px) {
+  .post-content {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .post-content {
+    box-sizing: border-box;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .comments-a {
+    font-family: "Roboto", sans-serif;
+    opacity: 0.8;
+    color: rgb(83, 81, 81);
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 3%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .comments-a {
+    font-family: "Roboto", sans-serif;
+    opacity: 0.8;
+    color: rgb(83, 81, 81);
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #footer-container {
+    text-align: center;
+  }
+  #menu-container {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .links {
+    padding-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #menu-container {
+    margin-top: 3%;
+  }
+}
